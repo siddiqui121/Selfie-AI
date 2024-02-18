@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>My Selfie App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="C98.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+<div class="container">
+<center>
+<a href = "" id = "link" download = "Selfie.png"></a>
+<h1>Voice Selfie App</h1>
+<hr>
+<div class="form-group">
+<h3>Try saying, 'Selfie'</h3>
+<label>Your voice output: </label>
+<textarea class = "form-control" id = "textbox" readonly = "true"></textarea>
+</div>
+<button class = "btn btn-danger" onclick = "start()"><span class = "glyphicon glyphicon-record"></span><h6>Start</h6></button>
+<br>
+<br>
+<label>Your webcam: </label>
+<div id = "camera"></div>
+<br>
+<label>Your Selfie Will Display Here:</label>
+<div id = "result"></div>
+</center>
+</div>
+<script src="H99.js"></script>
+</body>
+</html>
